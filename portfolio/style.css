@@ -1,0 +1,90 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f1b6d3;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #7809da;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  /* Main Section Styles */
+  main {
+    margin-top: 30px;
+  }
+  
+  h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #0d0e0d;
+  }
+  
+  .about p, .contact ul {
+    font-size: 1.1rem;
+  }
+  
+  .skills ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  .skills li {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+  }
+  
+  /* Contact Section Styles */
+  .contact ul li {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 1rem;
+    color: #777;
+  }
+  
